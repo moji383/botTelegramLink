@@ -1,5 +1,5 @@
 import os
-API_KEY = os.environ['API_KEY']
+API_KEY = os.getenv('API_KEY')
 import telebot
 import requests
 import string
